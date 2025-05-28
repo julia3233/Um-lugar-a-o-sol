@@ -1,0 +1,110 @@
+/* PARTE FIXA DO SITE */
+
+body {
+    background-image: url('img/fundo.jpg');
+    background-size: 1540px 700px;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.caixa-central {
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 250px !important;
+    height: auto !important;
+    max-width: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffde59;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.botao {
+    background-color: #f38410;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #d74c0b;
+}
+
+.botao-ativo {
+  background-color: #d74c0b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* ========================== */
+   
+/*CONFIGURAÇÃO DESSA PÁGINA*/
+
+.form-container {
+    background-color: #fdd835;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 400px;
+    color: #f38410;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.form-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 2px solid #f38410 ;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-container input[type="text"]:focus {
+    border-color: #ffeb3b;
+    outline: none;
+    background-color: #f3eaff;
+}
+
+.form-container input[type="submit"] {
+    background-color: #f38410;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #d74c0b;
+}
+
